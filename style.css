@@ -115,6 +115,14 @@ p {
   line-height: 1em;
   margin-bottom: 20px;
 }
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  margin-bottom: 20px;
+}
 .columnL {
   float: left;
   width: 50%;
@@ -130,13 +138,34 @@ p {
   width: 50%;
   padding: 0 6px;
 }
-
-/* these are for the txt msgs */
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .columnL {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .columnR {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .columnC {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/* these are for the txt msgs 
 .container {
 	padding: 40px 20px;
 	margin: 0 auto;
 	width: 300px;
-}
+}*/
 
 /*popup code */
 /* Popup container */
