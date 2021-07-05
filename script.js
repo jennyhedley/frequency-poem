@@ -1,5 +1,9 @@
-// This is a single line JS comment
+
 /*
-This is a comment that can span multiple lines 
-- use comments to make your own notes!
+
 */
+// When the user clicks on <div>, open the popup
+function popupFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
