@@ -74,11 +74,8 @@ a:not(.btn--remix):visited {
 END Glitch hello-app default styles
 ******************************************************************************/
 
-/* Bit of normalisation */
-
 body {
-	background-color: #eee;
-	color: #222;
+	background-color: black;
 	font: 0.8125em/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -86,6 +83,50 @@ img {
 	display: block;
 	height: auto;
 	max-width: 100%;
+}
+
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+h4 {
+  color: white;
+}
+p {
+  color: white
+}
+
+/* card for notes sections */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  text-align: left;
+  background-color: white;
+  color: black;
+  font-family: "Source Code Pro", monospace;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.columnL {
+  float: left;
+  width: 30%;
+  padding: 0 6px;
+}
+.columnR {
+  float: right;
+  width: 30%;
+  padding: 0 6px;
+}
+.columnC {
+  float: center;
+  width: 50%;
+  padding: 0 6px;
 }
 
 /* these are for the txt msgs */
