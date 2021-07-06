@@ -11,6 +11,7 @@
     format("opentype");
 }
 
+
 /* Our remix on glitch button */
 .btn--remix {
   font-family: HK Grotesk;
@@ -104,40 +105,39 @@ p {
 /* card for notes sections */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 20px;
+  padding: 2px 20px 20px 20px;
   margin-left: 20px;
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: white;
   color: black;
-  font-family: "Source Code Pro", monospace;
+  font-family: 'Source Code Pro', monospace;
   font-size: 12px;
   line-height: 1em;
   margin-bottom: 20px;
 }
+/* for text messages */
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 20px;
   margin-left: 20px;
+  padding-bottom: 450px;
   border-radius: 10px 10px 10px 10px;
   background-color: white;
   margin-bottom: 20px;
+  font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .columnL {
+  float: left;
+  width: 40%;
+  padding: 0 6px;
+}
+.columnXl {
   float: left;
   width: 50%;
   padding: 0 6px;
 }
-.columnR {
-  float: right;
-  width: 50%;
-  padding: 0 6px;
-}
-.columnC {
-  float: center;
-  width: 50%;
-  padding: 0 6px;
-}
+
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
   .columnL {
@@ -153,19 +153,7 @@ p {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 600px) {
-  .columnC {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-/* these are for the txt msgs 
-.container {
-	padding: 40px 20px;
-	margin: 0 auto;
-	width: 300px;
-}*/
+
 
 /*popup code */
 /* Popup container */
