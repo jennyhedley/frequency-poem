@@ -106,10 +106,15 @@ h3 {
   color: black;
   text-align: center;
 }
+/* for OK button */
 h4 {
-  color: white;
+  color: blue;
+  font-size: 16px;
+  text-align: center;
 }
-
+.center {
+  text-align: center;
+}
 
 /* card for notes sections */
 .card {
@@ -149,7 +154,7 @@ h4 {
 /* for error alerts */
 .card3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 20px;
+  padding: 5px 0 1px 0;
   line-height: .8em;
   margin-left: 20px;
   margin-top: 20px;
