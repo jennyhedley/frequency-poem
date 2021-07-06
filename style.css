@@ -76,7 +76,7 @@ END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
-	background-color: grey;
+	background-color: white;
 	font: 0.8125em/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -87,10 +87,15 @@ img {
 }
 
 h1 {
-  color: white;
+  color: black;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  letter-spacing: .1em;
 }
 h2 {
-  color: white;
+  color: black;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  letter-spacing: .1em;
+  font-size: 1em;
 }
 h3 {
   color: #FABB1B;
@@ -105,6 +110,7 @@ h4 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 30px 20px 40px 20px;
   margin-left: 20px;
+  margin-top: 20px;
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: white;
@@ -127,6 +133,7 @@ h4 {
   padding-top: 90px;
   line-height: .8em;
   margin-left: 20px;
+  margin-top: 20px;
   padding-bottom: 450px;
   border-radius: 10px 10px 10px 10px;
   background-color: white;
