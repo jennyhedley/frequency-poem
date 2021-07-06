@@ -112,6 +112,13 @@ h4 {
   font-size: 16px;
   text-align: center;
 }
+.button1 {
+  padding-left: 80px;
+  color: blue;
+  background: white;
+  border: white;
+  font-size: 16px;
+}
 .center {
   text-align: center;
 }
@@ -154,8 +161,8 @@ h4 {
 /* for error alerts */
 .card3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 5px 0 1px 0;
-  line-height: .8em;
+  padding: 5px 3px 15px 3px;
+  line-height: 1em;
   margin-left: 20px;
   margin-top: 20px;
   border-radius: 10px 10px 10px 10px;
