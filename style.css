@@ -98,9 +98,7 @@ h3 {
 h4 {
   color: white;
 }
-p {
-  color: black;
-}
+
 
 /* card for notes sections */
 .card {
@@ -110,13 +108,13 @@ p {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: white;
-  background-image: url("https://cdn.glitch.com/ad1e5b0b-3657-4400-8b42-9ba57664f218%2Fnotes-bg-white.png?v=1625534284236");
+  background-image: url("https://cdn.glitch.com/ad1e5b0b-3657-4400-8b42-9ba57664f218%2Fnotes-bg-black.png?v=1625534308760");
   background-size: cover;
   background-repeat: no-repeat;
-  color: black;
+  color: white;
   font-family: 'Source Code Pro', monospace;
   font-size: 12px;
-  line-height: .8em;
+
   margin-bottom: 20px;
 }
 /* for text messages */
