@@ -77,6 +77,9 @@ END Glitch hello-app default styles
 
 body {
 	background-color: white;
+  background-image: url("https://cdn.glitch.com/ad1e5b0b-3657-4400-8b42-9ba57664f218%2Fnotes-bg-white.png?v=1625534284236");
+  background-size: contain;
+  background-repeat: no-repeat;
 	font: 0.8125em/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -98,8 +101,10 @@ h2 {
   font-size: 1em;
   margin-left: 60px;
 }
+/* for error code */
 h3 {
-  color: #FABB1B;
+  color: black;
+  text-align: center;
 }
 h4 {
   color: white;
@@ -141,6 +146,24 @@ h4 {
   margin-bottom: 20px;
   font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+/* for error alerts */
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 20px;
+  line-height: .8em;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  margin-bottom: 20px;
+  font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: black;
+}
+.columnS {
+  float: left;
+  width: 25%;
+  padding: 0 6px;
+}
 .columnL {
   float: left;
   width: 40%;
@@ -153,6 +176,14 @@ h4 {
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .columnS {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 100px;
+  }
+}
 @media screen and (max-width: 600px) {
   .columnL {
     width: 100%;
