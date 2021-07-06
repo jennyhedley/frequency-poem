@@ -42,3 +42,22 @@ function changeResults() {
   paragraph.innerText = getRandomFromList(sent1);
 }
 buttonRetry.addEventListener("click", changeResults);
+
+const sent2 = [
+  "417 Expectation Failed.",
+  "416 Requested Range Not Satisfiable.",
+  "413 Request Entity Too Large.",
+  "409 Conflict.",
+  "406 Not Acceptable.",
+  "403 Forbidden.",
+  "402 Payment Required.",
+  "400 Bad Request"
+];
+
+const buttonOk = document.getElementById("button-2");
+
+function changeOkResults() {
+  const paragraph = document.getElementById("clientError");
+  paragraph.innerText = getRandomFromList(sent2);
+}
+buttonOk.addEventListener("click", changeOkResults);
