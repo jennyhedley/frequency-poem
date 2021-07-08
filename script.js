@@ -51,7 +51,7 @@ const sent2 = [
   "406 Not Acceptable.",
   "403 Forbidden.",
   "402 Payment Required.",
-  "400 Bad Request"
+  "400 Bad Request."
 ];
 
 const buttonOk = document.getElementById("button-2");
