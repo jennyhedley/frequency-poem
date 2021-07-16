@@ -113,6 +113,15 @@ h4 {
   text-align: center;
 }
 .button1 {
+  padding-left: 90px;
+  color: blue;
+  background: white;
+  border: white;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.1em;
+}
+.button2 {
   padding-left: 100px;
   color: blue;
   background: white;
