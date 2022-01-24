@@ -11,7 +11,6 @@
     format("opentype");
 }
 
-
 /* Navigation grid */
 
 .divider {
@@ -51,25 +50,26 @@ h2 {
   font-size: 1em;
   margin-left: 60px;
 }
-/* for error code */
+/* header for error code Retry */
 h3 {
   color: black;
   text-align: center;
 }
-/* for OK button */
+/* header for OK button */
 h4 {
   color: blue;
   font-size: 16px;
   text-align: center;
 }
 .button1 {
-  padding-left:70px;
+  padding-left: 70px;
   color: blue;
   background: white;
   border: white;
   font-size: 16px;
   text-align: center;
   line-height: 1.1em;
+  text-align: center;
 }
 .button2 {
   padding-left: 80px;
@@ -184,8 +184,8 @@ h4 {
 .popup .popuptext {
   visibility: hidden;
   width: 400px;
-  background-color: #555;
-  color: #fff;
+  background-color: #555555;
+  color: #ffffff;
   text-align: center;
   border-radius: 6px;
   padding: 10px 0;
@@ -205,7 +205,7 @@ h4 {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color: #555555 transparent transparent transparent;
 }
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
