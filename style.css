@@ -87,6 +87,12 @@ h4 {
 .center {
   text-align: center;
 }
+/* add superscript styling */
+.sup {
+  color: yellow;
+  font-size: 14px;
+  font-weight: bold;
+}
 
 /* card for notes sections */
 .card {
